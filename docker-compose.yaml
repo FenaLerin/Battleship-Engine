@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  battleship-engine:
+    build:
+        context: ./
+        dockerfile: Dockerfile
+    container_name: battleship-engine
+    restart: always
